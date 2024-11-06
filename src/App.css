@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  height: 100vh;
+ 
+
+}
+
+.Todo{
+padding: 90px;
+width: 200px;
+height: auto;
+background-color: darkblue;
+border-radius: 5px;
+border: 2px solid white;
+}
+
+input{
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;  
+}
+
+h1{
+  color: white;
+}
+
+.btn{
+  margin: 20px 0px;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(119, 0, 255);
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+
+ol li{
+  color: white;
+}
+
+.delete{
+  margin: 10px;
+  width: 70px;
+  height: 30px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+
+.edit{
+  width: 70px;
+  height: 30px;
+  border: none;
+  background-color: rgb(7, 156, 248);
+  color: white;
+}
